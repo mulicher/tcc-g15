@@ -172,9 +172,9 @@ class TCC_GUI(QtWidgets.QWidget):
         lTherm.addWidget(self._thermalCPU)
 
         self._modeSwitch = QRadioButtonSet(None, None, [
-            ('Balanced', ThermalMode.Balanced.value),
-            ('G mode', ThermalMode.G_Mode.value),
-            ('Custom', ThermalMode.Custom.value)
+            ('均衡模式', ThermalMode.Balanced.value),
+            ('G 模式', ThermalMode.G_Mode.value),
+            ('mulich', ThermalMode.Custom.value)
         ])
 
         # Fail-safe indicator
